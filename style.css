@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #222;
+    background: linear-gradient(135deg, #4B79A1, #283E51);
+
+
+
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 40px;
+}
+
+.weather-icon {
+    width: 170px;
+    height: 170px; /* Added height for the icon */
+    margin-top: 50px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    margin: 0 10px; /* Added margin to space out the columns */
+}
+
+.col img, .col i {
+    width: 50px; /* Adjusted width for consistency */
+    height: 50px; /* Adjusted height for consistency */
+    margin-right: 10px;
+}
+
+.col div p {
+    margin: 0;
+}
+
+.col div p.humidity, .col div p.wind {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.col i.fa-solid.fa-wind {
+    font-size: 50px;  /* Set the font size to match the image size */
+    margin-right: 10px;  /* Add margin to align it with the text */
+    color: #fff;  /* Set the color to white, similar to the other text and icons */
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    display: none;
+}
